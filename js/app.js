@@ -28,6 +28,7 @@ for (let i = 0; i < lenghtArray; i++){
 
 if (access === true){
     let userPlayer = prompt("Scegli un numero da 1 a 6")
+    userPlayer = parseInt(userPlayer)
     let pcPlayer = Math.floor(Math.random() * (6 - 1) + 1);
     console.log("Email corretta")
     console.log(userPlayer)
